@@ -17,7 +17,11 @@ git <action> --help
 git init
 git add <filename>
 git add .
+git add -A
 git status
 git commit m- "Your descriptive commit description goes here"
 git log
+git diff
+git diff --staged
+git reset HEAD <fileName>
 ```
