@@ -1,0 +1,1 @@
+archivo de prueba para ver el funcionamiento del comando `git rm `

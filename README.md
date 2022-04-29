@@ -27,6 +27,7 @@ git diff --staged
 git reset HEAD <fileName>
 git commit --amend
 git commit -a -m
+git rm
 ```
 
 ## No dar seguimiento a archivos/carpetas
