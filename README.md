@@ -15,19 +15,36 @@ git <action> --help
 
 ```
 git init // Iniciar git en nuestro proyecto
-git add <filename>
-git add .
-git add -A
-git status
-git commit
+git add <filename> // Agregar un archivo/directorio al estado de seguimiento
+git add . // Agregar todos los archivos al estado de seguimiento
+git add -A // Agregar los archivo seguidos al estado de seguimiento
+git status // Verificar el estado de los cambios
+git commit // Abrir el editor de código configurado
 git commit m- "Your descriptive commit description goes here"
-git log
-git diff
+git log // Verificar el historial de commits
+git diff // Verificar las diferencias entre el directorio de trabajo y el directorio de preparación
 git diff --staged
 git reset HEAD <fileName>
 git commit --amend
 git commit -a -m
-git rm
+git rm <fileName>
+git restore <fileName>
+git checkout -- <fileName>
+git mv <actualFileName> <newFileName>
+git log --oneline
+git log --graph
+git log --oneline --graph
+git log -<number>
+git log --oneline -<number>
+git log --graph -<number>
+git log --oneline --graph -<number>
+git log --pretty=format:"%h - %an, %ar : %s"
+git log --after="YYYY-MM-DD HH:MM:SS"
+git log --since="YYYY-MM-DD HH:MM:SS"
+git log --before="YYYY-MM-DD HH:MM:SS"
+git log --until="YYYY-MM-DD HH:MM:SS"
+git log --after="YYYY-MM-DD HH:MM:SS" --before="YYYY-MM-DD HH:MM:SS"
+git log --since="YYYY-MM-DD HH:MM:SS" --until="YYYY-MM-DD HH:MM:SS"
 ```
 
 ## No dar seguimiento a archivos/carpetas
