@@ -14,7 +14,7 @@ git <action> --help
 ## Comandos básicos para el manejo de commits
 
 ```
-git init
+git init // Iniciar git en nuestro proyecto
 git add <filename>
 git add .
 git add -A
@@ -24,4 +24,15 @@ git log
 git diff
 git diff --staged
 git reset HEAD <fileName>
+git commit --amend
+```
+
+## No dar sequimiento a archivos/carpetas
+*.gitignore*  
+El archivo de configuración de GIT donde estableceremos los patrones de los nombres de  archivos y/o carpetas que no deseamos contemplar dentro de nuestro flujo de seguimiento con GIT de nuestro proyecto.  
+Estructura base de un archivo **.gitignore**:  
+```
+app.js
+*.css
+node_modules
 ```
