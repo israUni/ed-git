@@ -18,5 +18,6 @@ git init
 git add <filename>
 git add .
 git status
-git commit m- "Your commit description goes here"
+git commit m- "Your descriptive commit description goes here"
+git log
 ```
