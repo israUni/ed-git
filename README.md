@@ -24,12 +24,15 @@ git commit m- "Your descriptive commit description goes here"
 git log // Verificar el historial de commits
 git diff // Verificar las diferencias entre el directorio de trabajo y el directorio de preparación
 git diff --staged // Verificar las diferencias en el directorio de preparación
+git diff <firstCommit> <secondCommit> // Ver las diferencias entre dos commits
 git reset HEAD <fileName> // Saca un archivo del area de preparación y lo lleva al árbol de trabajo
 git commit --amend // Reemplaza el último commit de la rama actual y tambien para agregar nuevos cambios a la utlima confirmación/commit realizado
 git commit -a -m
 git rm <fileName> // Remover/eliminar archivos del árbol de trabajo y del index
 git restore <fileName>
+git checkout <commitHash> // Moverse a el punto específico de un commit
 git checkout -- <fileName> // !!!PRECAUCIÓN!!! Nos ayuda a descartar los cambios al archivo en cuestión ---No utilizar hasta estar completamente seguros de ello---
+git checkout master/main // Volver al estado actual/presente de nuestro proyecto
 git mv <currentFileName> <newFileName> // Renombra archivos, pero GIT considera que se elimina un archivo y se crea uno nuevo
 git log --decorate --oneline
 git log --oneline
@@ -57,3 +60,6 @@ app.js
 *.css
 node_modules
 ```
+
+##Clonar repositorio existente en github.com  
+`git clone <urlofrepositoryingithub.com> <yourOwnfileName>`
