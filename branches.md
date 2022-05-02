@@ -8,3 +8,6 @@
 
 ## Moverse a determinada rama  
 `git checkout <branchName>`
+
+## Visualización de las ramas
+`git log --all --graph`
