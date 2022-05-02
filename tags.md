@@ -24,3 +24,5 @@ Ver una etiqueta en específico:
 
 ### Filtrado de etiquetas  
 `git --list "<tagNamePattern>"`
+
+Linea de texto para ejemplificar ramificaciones...
