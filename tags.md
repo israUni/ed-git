@@ -31,3 +31,5 @@ Podemo hacer un listado de las etiquetas que coincidan con el patron especificad
 
 ### Acceso a un punto del proyecto mediante etiquetas  
 `git checkout <tagName>`
+
+Linea creada en para ejemplo de la rama secondaryFristBranch...
