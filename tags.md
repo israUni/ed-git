@@ -5,6 +5,9 @@ Las etiquetas *tags* nos ayudan para establecer una marca en un determinado punt
 Listar etiquetas creadas en orden alfabético:  
 `git tag`
 
+Mostrar información de un punto creado (commit) dentro de nuestro proyecto:  
+`git show <commitHash>`
+
 ## Etiquetas  
 
 ### Etiquetas "ligeras"  
@@ -23,3 +26,8 @@ Ver una etiqueta en específico:
 `git show tagName`  
 
 ### Filtrado de etiquetas  
+Podemo hacer un listado de las etiquetas que coincidan con el patron especificado dentro de los nombres de etiquetas creados  
+`git tag -l "<tagPattern>*"`
+
+### Acceso a un punto del proyecto mediante etiquetas  
+`git checkout <tagName>`
