@@ -33,3 +33,6 @@ Verificamos las ramas que ya han sido fusionadas dentro de la rama en la que nos
 `git branch --merged`
 
 Esta línea se crea después de crear la rama secondBranch y nos servirá para verificar y solucionar conflictos al modificar un archivo que no existía en ese preciso instante...
+
+Crear y saltar al mismo tiempo una rama dentro de un punto específico en la linea de confirmaciones dentro de git  
+`git switch -c <branchName>`
