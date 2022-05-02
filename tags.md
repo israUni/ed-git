@@ -23,3 +23,4 @@ Ver una etiqueta en específico:
 `git show tagName`  
 
 ### Filtrado de etiquetas  
+`git --list "<tagNamePattern>"`
