@@ -23,3 +23,11 @@ Ahora "eliminaremos" la rama firstBranch, esto lo podemos hacer ya que la rama f
 En caso de necesitemos eliminar una rama aunque esta no haya sido unificada, entonces utilizaremos el siguiente comando:
 `git branch -D <branchName>`  
 Con la opción `-D`, forzaremos a la eliminación de la rama requerida, por lo que es altamente recomendable utilizarse siempre y cuando estemos 100% seguros que es lo que realmente queremo/necesitamos hacer...
+
+## Verificar ramas no fusionadas/unificadas  
+
+Verificaremos que ramas no han sido fusionadas dentro de la rama en que nos encontremos
+`git branch --no-merged`
+
+Verificamos las ramas que ya han sido fusionadas dentro de la rama en la que nos encontramos  
+`git branch --merged`
