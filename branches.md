@@ -11,3 +11,8 @@
 
 ## Visualización de las ramas
 `git log --all --graph`
+
+## Fusión/mezcla/unificación de ramas  
+`git merge <branchNameToMerge>`
+
+Esta linea se creó en la rama: firstBranch, pero servirá de ejemplo en la unión de la rama firstBranch a la rama principal main. NOTA: Para ello tenemos que "movernos" a la rama main...
